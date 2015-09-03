@@ -47,10 +47,12 @@ class nova::params {
         'Fedora': {
           $special_service_provider = undef
         }
-        'RedHat', 'CentOS', 'Scientific': {
+        'RedHat', 'CentOS', 'Scientific', 'OracleLinux': {
           if (versioncmp($::operatingsystemmajrelease, '7') < 0) {
+            $messagebus_service_name = 'messagebus'
             $special_service_provider = 'init'
           } else {
+            $messagebus_service_name = 'dbus'
             $special_service_provider = undef
           }
         }
