@@ -1,5 +1,8 @@
 require 'beaker-rspec'
 require 'beaker/puppet_install_helper'
+require 'NONEXISTANT'
+
+FAILHERE
 
 run_puppet_install_helper
 
