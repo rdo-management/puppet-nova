@@ -1,0 +1,7 @@
+Code-Review+2: RDO CI Service Account <openstack-ci-service@redhat.com>
+Verified+1: RDO CI Service Account <openstack-ci-service@redhat.com>
+Submitted-by: RDO CI Service Account <openstack-ci-service@redhat.com>
+Submitted-at: Tue, 23 Feb 2016 01:16:50 +0100
+Reviewed-on: https://review.gerrithub.io/264012
+Project: rdo-puppet-modules/puppet-nova
+Branch: refs/heads/recomb-original-master-9af479619834a0af0f2a59ce068af3a3dfe5e354
